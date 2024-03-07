@@ -7,6 +7,9 @@ export https_proxy='http://login:password@ip:port/'
 export VAGRANT_HTTP_PROXY=${http_proxy}
 export VAGRANT_NO_PROXY="127.0.0.1"
 
+Установлен плагин для интеграции VMBoxGuestTools
+vagrant plugin install vagrant-vbguest
+
 Установка ядра
 
 Включаем основной репозиторий с ядрами
